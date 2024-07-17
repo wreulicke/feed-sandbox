@@ -26,6 +26,14 @@ func mainInternal() error {
 			// 2024-07-17T23:47:11+09:00
 			Created: time.Date(2024, 7, 17, 23, 47, 11, 0, time.FixedZone("JST", 9*60*60)),
 		},
+		{
+			Title:       "item2",
+			Link:        &feeds.Link{Href: "https://github.com/wreulicke/feed-sandbox"},
+			Description: "item2",
+			Author:      &feeds.Author{Name: "wreulicke"},
+			// 2024-07-17T23:48:11+09:00
+			Created: time.Date(2024, 7, 17, 23, 48, 11, 0, time.FixedZone("JST", 9*60*60)),
+		},
 	}
 	atom, err := f.ToAtom()
 	if err != nil {
