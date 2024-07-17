@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
+  <title>feed-sandbox</title>
+  <id>https://github.com/wreulicke/feed-sandbox</id>
+  <updated>2024-07-17T23:47:11+09:00</updated>
+  <subtitle>feed-sandbox</subtitle>
+  <link href="https://github.com/wreulicke/feed-sandbox"></link>
+  <author>
+    <name>wreulicke</name>
+  </author>
+  <entry>
+    <title>item1</title>
+    <updated>2024-07-17T23:47:11+09:00</updated>
+    <id>tag:github.com,2024-07-17:/wreulicke/feed-sandbox</id>
+    <link href="https://github.com/wreulicke/feed-sandbox" rel="alternate"></link>
+    <summary type="html">item1</summary>
+    <author>
+      <name>wreulicke</name>
+    </author>
+  </entry>
+</feed>
